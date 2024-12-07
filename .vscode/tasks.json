@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build C++",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "c:/c_c++/ESTRUCTURA_DE_DATOS/Trabajo_de_semana_2/src/figuras_geometricas.cpp", // Ruta al archivo fuente
+          "-o",
+          "c:/c_c++/ESTRUCTURA_DE_DATOS/Trabajo_de_semana_2/build/figuras_geometricas.exe" // Ruta al ejecutable
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
+  
+  
